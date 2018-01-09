@@ -113,6 +113,13 @@ persist.gps.qc_nlp_in_use=1 \
 persist.loc.nlp_name=com.qualcomm.location \
 ro.gps.agps_provider=1
 
+# LMKD
+PRODUCT_PROPERTY_OVERRIDES += \
+ro.config.low_ram=false \
+ro.lmk.kill_heaviest_task=true \
+ro.lmk.kill_timeout_ms=100 \
+ro.lmk.use_minfree_levels=true \
+
 # Media
 PRODUCT_PROPERTY_OVERRIDES += \
 av.debug.disable.pers.cache=1 \
