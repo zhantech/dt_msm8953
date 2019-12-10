@@ -1,2 +1,5 @@
 allow hal_camera_default camera_data_file:sock_file write;
 get_prop(hal_camera_default, bootanim_system_prop);
+
+# Allow hal_camera_default to search in mnt/vendor
+allow hal_camera_default mnt_vendor_file:dir search;
