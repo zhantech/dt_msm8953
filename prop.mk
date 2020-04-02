@@ -215,6 +215,10 @@ ro.vendor.use_data_netmgrd=true \
 persist.data.netmgrd.qos.enable=true \
 persist.vendor.data.mode=concurrent
 
+# Netflix
+PRODUCT_PROPERTY_OVERRIDES += \
+ro.netflix.bsp_rev=Q660-13149-1
+
 # Phantom process monitoring
 PRODUCT_PROPERTY_OVERRIDES += \
 sys.fflag.override.settings_enable_monitor_phantom_procs=false
