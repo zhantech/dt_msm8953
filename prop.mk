@@ -205,6 +205,10 @@ persist.rild.nitz_short_ons_3=""
 PRODUCT_PROPERTY_OVERRIDES += \
 sys.fflag.override.settings_enable_monitor_phantom_procs=false
 
+# Perf
+PRODUCT_PROPERTY_OVERRIDES += \
+ro.vendor.perf.scroll_opt=true
+
 # Radio
 PRODUCT_PROPERTY_OVERRIDES += \
 DEVICE_PROVISIONED=1 \
