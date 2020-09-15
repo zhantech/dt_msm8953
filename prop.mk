@@ -196,6 +196,9 @@ ro.telephony.call_ring.multiple=false \
 ro.telephony.default_network=22,20 \
 service.qti.ims.enabled=1
 
+# Spectrum
+spectrum.support=1
+
 # Time Services
 PRODUCT_PROPERTY_OVERRIDES += \
 persist.timed.enable=true
