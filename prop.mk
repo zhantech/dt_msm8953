@@ -232,6 +232,7 @@ persist.radio.multisim.config=dsds \
 persist.vendor.radio.custom_ecc=1 \
 persist.vendor.radio.rat_on=combine \
 persist.vendor.radio.sib16_support=1 \
+persist.vendor.radio.mt_sms_ack=30 \
 persist.vendor.data.iwlan.enable=true \
 ril.subscription.types=NV,RUIM \
 rild.libargs=-d/dev/smd0 \
