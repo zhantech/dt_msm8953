@@ -113,6 +113,10 @@ persist.gps.qc_nlp_in_use=1 \
 persist.loc.nlp_name=com.qualcomm.location \
 ro.gps.agps_provider=1
 
+# Force triple frame buffers
+PRODUCT_PROPERTY_OVERRIDES += \
+ro.surface_flinger.max_frame_buffer_acquired_buffers=3
+
 # LMKD
 PRODUCT_PROPERTY_OVERRIDES += \
 ro.config.low_ram=false
