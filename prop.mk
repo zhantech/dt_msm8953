@@ -217,6 +217,11 @@ PRODUCT_PROPERTY_OVERRIDES += \
 ro.vendor.extension_library=libqti-perfd-client.so \
 ro.vendor.perf.scroll_opt=true
 
+# Power Saving
+PRODUCT_PROPERTY_OVERRIDES += \
+power.saving.mode=1 \
+pm.sleep_mode=1
+
 # Radio
 PRODUCT_PROPERTY_OVERRIDES += \
 persist.dbg.volte_avail_ovr=1 \
@@ -233,6 +238,8 @@ rild.libargs=-d/dev/smd0 \
 rild.libpath=/vendor/lib64/libril-qc-qmi-1.so \
 ro.telephony.iwlan_operation_mode=legacy \
 ro.telephony.call_ring.multiple=false \
+ro.vold.umsdirtyratio=20 \
+ro.ril.disable.power.collapse=0 \
 ro.telephony.default_network=22,20 \
 ro.telephony.block_binder_thread_on_incoming_calls=false \
 service.qti.ims.enabled=1
