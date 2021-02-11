@@ -232,6 +232,10 @@ PRODUCT_PROPERTY_OVERRIDES += \
 power.saving.mode=1 \
 pm.sleep_mode=1
 
+# FUSE passthrough
+PRODUCT_PROPERTY_OVERRIDES += \
+persist.sys.fuse.passthrough.enable=true
+
 # Radio
 PRODUCT_PROPERTY_OVERRIDES += \
 persist.dbg.volte_avail_ovr=1 \
