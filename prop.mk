@@ -121,6 +121,11 @@ ro.surface_flinger.max_frame_buffer_acquired_buffers=3
 PRODUCT_PROPERTY_OVERRIDES += \
 ro.config.low_ram=false
 
+# Iorap
+PRODUCT_PROPERTY_OVERRIDES += \
+iorapd.perfetto.enable=true \
+iorapd.readahead.enable=true
+
 # Media
 PRODUCT_PROPERTY_OVERRIDES += \
 av.debug.disable.pers.cache=1 \
