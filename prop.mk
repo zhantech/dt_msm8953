@@ -124,6 +124,10 @@ persist.gps.qc_nlp_in_use=1 \
 persist.loc.nlp_name=com.qualcomm.location \
 ro.gps.agps_provider=1
 
+# Gboard
+PRODUCT_PROPERTY_OVERRIDES += \
+ro.com.google.ime.kb_pad_port_b=1
+
 # IORap
 ro.iorapd.enable=true
 iorapd.perfetto.enable=true
