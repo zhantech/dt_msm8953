@@ -7,6 +7,9 @@ audio.chk.cal.us=0
 audio.offload.disable=false
 ro.audio.soundfx.dirac=true
 
+# App
+ro.launcher.blur.appLaunch=0
+
 # Bluetooth
 bluetooth.hfp.client=1
 persist.vendor.btstack.enable.splita2dp=false
