@@ -212,8 +212,8 @@ vendor/lib64/libcdsp_default_listener.so|94792d75a16534ae766aba9c0d4a4a62782eac6
 vendor/lib64/libfastrpc_utf_stub.so|d19ff5b0ef7506a5d28f5825547dcf235c2f8f96
 vendor/lib64/libsysmon_cdsp_skel.so|f3cb20891b795036134a659cd530287fe8c84369
 
-# Charger - from daisy
-vendor/bin/hvdcp_opti|7ee82dd264c7c349fb498111a61d5009ae9f0da2
+# Charger - from LA.UM.9.6.2.r1-04200-89xx.0
+vendor/bin/hvdcp_opti|d160d2193640a21b7eff70425bcdbfc775063cd5
 
 # DPM - from nokia
 framework/tcmclient.jar|cdd1ea7143a5a7acc3909b5cfa706650179647c7
