@@ -47,7 +47,6 @@ TARGET_KERNEL_CLANG_PATH := $(shell pwd)/prebuilts/clang/host/linux-x86/gabuters
 TARGET_KERNEL_CROSS_COMPILE_PREFIX := aarch64-linux-gnu-
 ifeq ($(TARGET_KERNEL_VERSION),4.9)
 BOARD_KERNEL_CMDLINE += androidboot.usbconfigfs=true
-TARGET_KERNEL_CLANG_COMPILE := true
 endif
 TARGET_KERNEL_OPTIONAL_LD := true
 TARGET_KERNEL_ADDITIONAL_FLAGS += LLVM=1 HOSTCFLAGS="-fuse-ld=lld -Wno-unused-command-line-argument"
