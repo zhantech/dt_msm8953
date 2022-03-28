@@ -123,6 +123,7 @@ ro.config.low_ram=false
 
 # Iorap
 PRODUCT_PROPERTY_OVERRIDES += \
+vendor.iop.enable_prefetch_ofr=1 \
 iorapd.perfetto.enable=true \
 iorapd.readahead.enable=true
 
