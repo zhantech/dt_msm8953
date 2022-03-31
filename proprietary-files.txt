@@ -144,8 +144,8 @@ system_ext/lib64/vendor.qti.hardware.data.connection@1.1.so|edb234e41d31c9f00826
 system_ext/lib64/vendor.qti.hardware.data.dynamicdds@1.0.so|007c1b5c79b8e2298ae2ab11ad7bb53ae8fd3c80
 system_ext/lib64/vendor.qti.hardware.data.iwlan@1.0.so|160f8ad491d683b1a41291a9cff0d32e0d0929c2
 system_ext/lib64/vendor.qti.hardware.data.qmi@1.0.so|5ad9fffc906edf54e747ff1121ce249ffea3fc41
--vendor/app/CneApp/CneApp.apk|132b999be53d2c47b3eb408139fb188e2c8c2737
--vendor/app/IWlanService/IWlanService.apk|e9a938ec2013c956607ab81d53c35a5e747ae11c
+vendor/app/CneApp/CneApp.apk|132b999be53d2c47b3eb408139fb188e2c8c2737
+vendor/app/IWlanService/IWlanService.apk|e9a938ec2013c956607ab81d53c35a5e747ae11c
 vendor/bin/cnd|0dec5a8dd7e72e5dec4d7ae441f7e3f622f7609a
 vendor/etc/cne/profileSlm.xml|947917691684584b7e2ddf3588cd6f8e99f3804f
 vendor/etc/cne/slm.conf|089de5d9382331791088edd9b4bce13bfa5ea336
@@ -231,7 +231,7 @@ system_ext/lib64/libdpmctmgr.so|bdeb35e91fead0c691b73fa3a4ed43130f420e06
 system_ext/lib64/libdpmfdmgr.so|d2b06e0ac60a27c81d5bb44276c63ace3336e86b
 system_ext/lib64/libdpmframework.so|a5cb575638ba1fde2d5dd5c44407fc9a49d4fdf8
 system_ext/lib64/libdpmtcm.so|7aab06d22a1d8390cc48719fd758ac2bb62530e1
--system_ext/priv-app/dpmserviceapp/dpmserviceapp.apk|222fd8c076b79cbc5170729ef4ca2a3baaebc2c4
+system_ext/priv-app/dpmserviceapp/dpmserviceapp.apk|222fd8c076b79cbc5170729ef4ca2a3baaebc2c4
 vendor/bin/dpmQmiMgr|4fe936478b0da1ee20c6222234b80d478a72cc2a
 vendor/etc/init/dpmQmiMgr.rc|1538743661a5c48c15cd105beaad20f72953885a
 vendor/lib64/com.qualcomm.qti.dpm.api@1.0.so|c5c893e86d38b8aa8cd277ccb8b011fb2f19995e
@@ -262,7 +262,7 @@ vendor/bin/loc_launcher|06793983f836a9b42b5ff3848f8fe177134c1379
 vendor/bin/lowi-server|1fe78b543c14196169ab411acfd9dabbfb4636dd
 vendor/bin/slim_daemon|925da604895b095d7e39cf84c7031c6825f32ac0
 vendor/bin/xtra-daemon|20ec9dc7d1785a1789e57cf55f8b49b79fde374c
--vendor/etc/vintf/manifest/vendor.qti.gnss@3.0-service.xml|9b2f6691d6c224bcb9ab9a0d57adfb9e52f1b53e
+vendor/etc/vintf/manifest/vendor.qti.gnss@3.0-service.xml|9b2f6691d6c224bcb9ab9a0d57adfb9e52f1b53e
 vendor/etc/cacert_location.pem
 vendor/etc/xtra_root_cert.pem
 vendor/lib64/hw/vendor.qti.gnss@3.0-impl.so|2328835a0e0221a527c8e55c72e1a0dcef3fcfbe
@@ -533,9 +533,9 @@ vendor/lib/libdiag.so|b9fc5054944f7b09ceed526cc3572525b70aa61a
 vendor/lib64/libdiag.so|06dd481a7563f492713db4f2e3bc45ee581179ec
 
 # Radio - from nokia
--system_ext/app/QtiTelephonyService/QtiTelephonyService.apk|bbc0c94bb5cff789eac7990abc654948d2bf0395
--system_ext/app/embms/embms.apk|fe9986babadf15e940cd1edbf6439fbf22d9f908
--system_ext/priv-app/qcrilmsgtunnel/qcrilmsgtunnel.apk|c440f39da96a1ea8b486a7f15aa55c84a5e786cb
+system_ext/app/QtiTelephonyService/QtiTelephonyService.apk|bbc0c94bb5cff789eac7990abc654948d2bf0395
+system_ext/app/embms/embms.apk|fe9986babadf15e940cd1edbf6439fbf22d9f908
+system_ext/priv-app/qcrilmsgtunnel/qcrilmsgtunnel.apk|c440f39da96a1ea8b486a7f15aa55c84a5e786cb
 system_ext/etc/permissions/embms.xml|22e7474091f9f71f02dd0cfc76cfa8848a46f079
 system_ext/etc/permissions/qcrilhook.xml|30397e293b2c40e6b7a1d11c2a615cdd05de625a
 system_ext/etc/permissions/telephony_system-ext_privapp-permissions-qti.xml|4f0056403f56928b8c75a617ba582f17061f89ae
@@ -614,7 +614,7 @@ vendor/radio/qcril_database/upgrade/6_version_update_ecc_table.sql|0fdf4b6ccb489
 vendor/radio/qcril_database/upgrade/7_version_update_ecc_table.sql|9a76d5747da2876b87b214579c9d74ae92d218d7
 
 # Radio-IMS - from nokia
--system_ext/priv-app/ims/ims.apk|c4ed5677a9b3e1230165e4fd8948bc10edeec5a4
+system_ext/priv-app/ims/ims.apk|c4ed5677a9b3e1230165e4fd8948bc10edeec5a4
 system_ext/etc/permissions/com.qualcomm.qti.imscmservice-V2.0-java.xml|bd9fc166b542b4e730f194ebc996957770d9d497
 system_ext/etc/permissions/com.qualcomm.qti.imscmservice-V2.1-java.xml|b40fc74f7d5e58b4e918f952b89a79cf2a5c4088
 system_ext/etc/permissions/com.qualcomm.qti.imscmservice-V2.2-java.xml|bfceff47fb0b55a418bed71de6050d876a776ac7
@@ -723,7 +723,7 @@ vendor/bin/thermal-engine|bbf772d4acf6c11413d2f728140aae63a49d3eae
 vendor/lib64/libthermalioctl.so|6eed5b8ca6989809eac27abd4af19bbd6f3845ee
 
 # Time services - from daisy
--vendor/app/TimeService/TimeService.apk|27f9b81621c446baa8c37581d9bfbca2fd67b496
+vendor/app/TimeService/TimeService.apk|27f9b81621c446baa8c37581d9bfbca2fd67b496
 vendor/bin/time_daemon|75b8a6a14cfb4424499ccb2bf1cad011df295d0e
 vendor/etc/init/init.time_daemon.rc|b253ca2a498757e14e1d7a051bf504ae09218f51
 -vendor/lib/libtime_genoff.so|a574d287e7e73649685b702f4fe497eb7c6ba727
