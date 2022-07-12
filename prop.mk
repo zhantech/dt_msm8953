@@ -141,9 +141,11 @@ ro.config.low_ram=false
 
 # Iorap
 PRODUCT_PROPERTY_OVERRIDES += \
-vendor.iop.enable_prefetch_ofr=1 \
-iorapd.perfetto.enable=true \
-iorapd.readahead.enable=true
+vendor.iop.enable_prefetch_ofr=0 \
+iorapd.perfetto.enable=false \
+iorapd.readahead.enable=false \
+persist.device_config.runtime_native_boot.iorap_readahead_enable=false \
+ro.iorapd.enable=false
 
 # VSync
 PRODUCT_PROPERTY_OVERRIDES += \
