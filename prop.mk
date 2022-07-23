@@ -198,6 +198,10 @@ persist.rild.nitz_short_ons_1="" \
 persist.rild.nitz_short_ons_2="" \
 persist.rild.nitz_short_ons_3=""
 
+# Phantom process monitoring
+PRODUCT_PROPERTY_OVERRIDES += \
+sys.fflag.override.settings_enable_monitor_phantom_procs=false
+
 # Perf
 PRODUCT_PROPERTY_OVERRIDES += \
 ro.vendor.extension_library=libqti-perfd-client.so
