@@ -4,3 +4,9 @@ allow system_server proc_touchpanel:file rw_file_perms;
 # Input devices
 r_dir_file(system_server, idc_file);
 r_dir_file(system_server, keylayout_file);
+
+# Smart charging	
+allow system_server sysfs_battery_supply:file { getattr open read write };	
+r_dir_file(untrusted_app, sysfs_battery_supply)
+r_dir_file(untrusted_app, sysfs_usb_supply)
+allow system_server sysfs_usb_supply:file { getattr open read write }; 
