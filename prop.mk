@@ -138,7 +138,8 @@ ro.surface_flinger.max_frame_buffer_acquired_buffers=3
 
 # LMKD
 PRODUCT_PROPERTY_OVERRIDES += \
-ro.config.low_ram=false
+ro.config.low_ram=false \
+ro.lmk.log_stats=false
 
 # Iorap
 PRODUCT_PROPERTY_OVERRIDES += \
