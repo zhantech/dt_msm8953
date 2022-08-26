@@ -123,6 +123,11 @@ PRODUCT_PROPERTY_OVERRIDES += \
 ro.config.low_ram=false \
 ro.lmk.log_stats=false
 
+# LMK tuning
+PRODUCT_PROPERTY_OVERRIDES += \
+ro.lmk.filecache_min_kb=153600 \
+ro.lmk.stall_limit_critical=40
+
 # Iorap
 PRODUCT_PROPERTY_OVERRIDES += \
 vendor.iop.enable_prefetch_ofr=0 \
