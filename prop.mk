@@ -228,6 +228,7 @@ rild.libpath=/vendor/lib64/libril-qc-qmi-1.so \
 ro.telephony.iwlan_operation_mode=legacy \
 ro.telephony.call_ring.multiple=false \
 ro.telephony.default_network=22,20 \
+ro.telephony.block_binder_thread_on_incoming_calls=false \
 service.qti.ims.enabled=1
 
 # System
