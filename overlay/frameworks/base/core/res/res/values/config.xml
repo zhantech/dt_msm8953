@@ -701,4 +701,7 @@
     <bool name="config_supportsBoostFramework">true</bool>
     
     <bool name="config_supportSmartPixels">true</bool>
+    
+    <!-- Display low battery warning when battery level dips to this value -->
+    <integer name="config_lowBatteryWarningLevel">15</integer>
 </resources>
