@@ -44,6 +44,9 @@ on early-init
     write /sys/block/mmcblk0/queue/read_ahead_kb 2048
     write /sys/block/mmcblk0/queue/nr_requests 256
     write /sys/block/mmcblk0/queue/iostats 0
+    
+    # Enable suspend to RAM
+    write /sys/power/mem_sleep "deep"
 
 on init
     # Create cgroup mount point for memory
