@@ -67,7 +67,7 @@ public class TiltSensor implements SensorEventListener {
         }
 
         if (event.values[0] == 1) {
-            DozeUtils.wakeOrLaunchDozePulse(mContext);
+            DozeUtils.launchDozePulse(mContext);
         }
     }
 
