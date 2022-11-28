@@ -120,6 +120,7 @@ sdm.debug.disable_skip_validate=1 \
 vendor.display.disable_skip_validate=1 \
 vendor.display.enable_default_color_mode=1 \
 vendor.gralloc.enable_fb_ubwc=1 \
+debug.renderengine.backend=skiaglthreaded \
 vendor.display.disable_scaler=1 \
 debug.performance.tuning=1
 
@@ -247,12 +248,6 @@ service.qti.ims.enabled=1
 # System
 PRODUCT_PROPERTY_OVERRIDES += \
 persist.sys.binary_xml=false
-
-# SkiaGL
-PRODUCT_PROPERTY_OVERRIDES += \
-debug.hwui.renderer=skiagl \
-debug.renderengine.backend=skiaglthreaded \
-renderthread.skia.reduceopstasksplitting=true
 
 # Time Services
 PRODUCT_PROPERTY_OVERRIDES += \
