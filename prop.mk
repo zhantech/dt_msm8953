@@ -128,6 +128,10 @@ debug.performance.tuning=1
 PRODUCT_PROPERTY_OVERRIDES += \
 drm.service.enabled=true
 
+# Disable MTE Async for system server
+PRODUCT_PROPERTY_OVERRIDES += \
+arm64.memtag.process.system_server=off
+
 # Encryption
 PRODUCT_PROPERTY_OVERRIDES += \
 ro.crypto.volume.contents_mode=aes-256-xts
