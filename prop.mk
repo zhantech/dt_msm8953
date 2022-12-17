@@ -99,6 +99,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 debug.egl.hw=0 \
 debug.enable.sglscale=1 \
 debug.gralloc.enable_fb_ubwc=1 \
+debug.hwui.skia_atrace_enabled=false \
 debug.mdpcomp.logs=0 \
 debug.sf.enable_hwc_vds=1 \
 debug.sf.disable_client_composition_cache=1 \
