@@ -106,7 +106,6 @@ debug.sf.disable_client_composition_cache=1 \
 debug.sf.hw=0 \
 debug.sf.latch_unsignaled=1 \
 debug.sf.disable_backpressure=1 \
-debug.hwui.use_buffer_age=false \
 debug.sf.recomputecrop=0 \
 dev.pm.dyn_samplingrate=1 \
 persist.demo.hdmirotationlock=false \
