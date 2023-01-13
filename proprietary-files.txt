@@ -441,6 +441,20 @@ vendor/lib64/libOmxEvrcDec.so|67da9d405b33c9a1058ee2bcb12ea489f37d5961
 vendor/lib64/libOmxQcelp13Dec.so|842f2285c1eb76827a3b8bd0b574aee86ad1d1bd
 vendor/lib64/libOmxWmaDec.so|7e5dab018bbab16566315dcc61682a196a25f0ba
 
+# Perf - from LA.UM.10.6.2.r1-01600-89xx.0
+vendor/bin/hw/vendor.qti.hardware.perf@2.2-service|5981341dfa9cff2f42e8ae381bb319804767a66e
+vendor/etc/init/vendor.qti.hardware.perf@2.2-service.rc|459b4c23550a56ac545f78c6d391f3d7dd9ba45b
+vendor/lib/libperfconfig.so|49e1efadfec6acb8d847fe691f8f48623ccfaff0
+vendor/lib/libperfgluelayer.so|242e98ea9ac9d26cc9713670f9321d027a779de1
+vendor/lib/libqti-perfd-client.so|3b73b0f221ea0e5204b1e866cfcbdf5edd9fa856
+vendor/lib/libqti-perfd.so|8dc392e4ae386d9d30d9154800ec7c183888b750
+vendor/lib/libqti-util.so|a22110a723fe4b2e001db9f9e14873e86659fc3f
+vendor/lib64/libperfconfig.so|252d05283fc7a070f0516ebd0e63f9e17b0fbf61
+vendor/lib64/libperfgluelayer.so|c0de76c678a5e7d1909910aa57873711cdd3f124
+vendor/lib64/libqti-perfd-client.so|955130c37295d3b7f196cbdc0996ff029953a158
+vendor/lib64/libqti-perfd.so|16e47121750100c6ca95498fb1d097969ffbf1ed
+vendor/lib64/libqti-util.so|acce7e3b34e80ec9b66f3e82a7612d009c8944da
+
 # Perf - from daisy
 vendor/bin/energy-awareness|def07e366347c7f0a7778b748acb49557ab21d2a
 vendor/bin/msm_irqbalance|b5e55b4b0934b65b7dd5d2201f9a70f6f77a4e7c
