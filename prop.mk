@@ -33,6 +33,10 @@ vendor.voice.playback.conc.disabled=true \
 vendor.voice.record.conc.disabled=false \
 vendor.voice.voip.conc.disabled=true
 
+# Apex
+PRODUCT_PROPERTY_OVERRIDES += \
+ro.apex.updatable=false
+
 # Better Ram
 PRODUCT_PROPERTY_OVERRIDES += \
 ro.config.fha_enable=true \
