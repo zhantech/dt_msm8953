@@ -1,20 +1,24 @@
 # daisy package version: daisy-user 10 QKQ1.191002.002 V11.0.18.0.QDLMIXM release-keys, unless stated otherwise
 # nokia package version: Nokia/Deadpool_00WW/DPL_sprout:11/RKQ1.200928.002/00WW_3_140:user/release-keys, unless stated otherwise
 
-# ADSP - from daisy
-vendor/bin/adsprpcd|a5e878691577485c9f7ee33dfe02384a13f0a265
-vendor/lib/libadsprpc.so|e00e8dcb88e9b204fd90bb2c32afcc7fa28dbad1
-vendor/lib/libadsp_default_listener.so|c9a1ee00b32a93a9496ec84393afa0625e929eed
-vendor/lib/libfastcvadsp_stub.so|996345605e1d631151a6b4e9cd9f65b2c7e82dac
-vendor/lib/libfastcvopt.so|2df00c3827fe1db322084cb3935241f17d1532f4
-vendor/lib/libmdsprpc.so|642f74bfec1098397c7ee025e0744badbf14fc39
-vendor/lib/libsdsprpc.so|2963c73745b8b1ccab64260ce93e3679c7c66113
-vendor/lib64/libadsprpc.so|3dd28423f6b786584a1c80b2cdb6e22a1c00b0ae
-vendor/lib64/libadsp_default_listener.so|d7436ae6255671b4c3af533b5c89d91d75d5069e
-vendor/lib64/libfastcvadsp_stub.so|f101b66fa4a450b5af2e6aa9f7aaa28f9a876005
-vendor/lib64/libfastcvopt.so|f5e25aa055a57e23530b858bf7dd204a6009effc
-vendor/lib64/libmdsprpc.so|38de6a53d3c2ff60a253c7c6a0d3b46962e8e194
-vendor/lib64/libsdsprpc.so|1e89a33bae491abe4c81bb77c8fabf59bff4b853
+# ADSP - from LA.UM.10.6.2.r1-01600-89xx.0
+vendor/bin/adsprpcd|b5c392085cc2d3b3f88bb33a6ef904f61c349761
+vendor/bin/dspservice|4ea49e1d95df172efe99e49d66c4a2cc485bd01d
+vendor/etc/init/vendor.qti.adsprpc-guestos-service.rc|8f0eb84d3eb5fc0f683ef7b975b75044d56f513e
+vendor/etc/init/vendor.qti.hardware.dsp@1.0-service.rc|fbf2bb38ca6bdddf98c7123da9e1f263a4eec55f
+vendor/etc/seccomp_policy/vendor.qti.hardware.dsp.policy|f060101b26d3674bb173e5fc95e118f56a8ac15d
+vendor/lib/libadsprpc.so|e8445f2ddd0d561f9221fe0678092c9b17e9b230
+vendor/lib/libadsp_default_listener.so|741d25867a2c4a35c962eac9f4df68b67b0ffbfc
+vendor/lib/libfastcvadsp_stub.so|65a05f1459852af23abd66f11c8b6fa6464beff3
+vendor/lib/libfastcvopt.so|69e333756b220f603d64435f1d7db4f772238114
+vendor/lib/libmdsprpc.so|fbeb913d9863cfe8c389c15b150066f5f0468860
+vendor/lib/vendor.qti.hardware.dsp@1.0.so|e865a07eb685f058e6f1c644f8e7928ff6754009
+vendor/lib64/libadsprpc.so|8053faeaa1ea0a67668cc43722cccff31bf3af4d
+vendor/lib64/libadsp_default_listener.so|7f722dfabfa0d5998c5a45c0cb1143fc9ab2d558
+vendor/lib64/libfastcvadsp_stub.so|2f6cdb7466e67d2f4ac2026c8b6e913226621a34
+vendor/lib64/libfastcvopt.so|a4f2ef3e19c21bc643e3faef3fe713507d537821
+vendor/lib64/libmdsprpc.so|981a4a4bd2940f4bf6393bce051a753a35f6d088
+vendor/lib64/vendor.qti.hardware.dsp@1.0.so|06b48413ec08c440186bc5e1dccf68c8d466f669
 
 # ADSP modules - from daisy
 vendor/lib/rfsa/adsp/dirac_resource.dar|d9b3693eab8c520ef859236b8235752188b7cba0
