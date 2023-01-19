@@ -75,8 +75,9 @@ framework/audiosphere.jar|c1679f5aca56f0cb24745b3f7d219acd04833bed
 vendor/lib/soundfx/libasphere.so|4d0ccf1c282bb70619d20bf7d79021dc3815a579
 vendor/lib64/soundfx/libasphere.so|f552a053f935299b3fd9be03a596eb4c40dee50e
 
-# ANT+ (vendor) - from daisy
-vendor/lib64/com.qualcomm.qti.ant@1.0.so|b35afe2c22970170a2164be199c65bb328a17383
+# ANT+ - from LA.UM.10.6.2.r1-01600-89xx.0
+system_ext/lib64/com.qualcomm.qti.ant@1.0.so|ed5fa24a93d84833726666206381aa59fc7371c8
+vendor/lib64/hw/com.dsi.ant@1.0-impl.so|713d4c07424068a29875fcf727eef8f15e50d483
 
 # AptX - from redfin user 11 RQ3A.210605.005-7349499 release-keys
 system_ext/lib64/libaptX_encoder.so|df1c89d7af1bb35808d5fe3496b04ba066c10cbc
