@@ -310,7 +310,6 @@ vendor/lib/libOpenCL.so|86a24e408c852cab331f48a4341dc42bddc0fe17
 vendor/lib/libmm-hdcpmgr.so|ea47b3c85cfd894945cd7a4412cdc3972ea67c78
 vendor/lib/libpvr.so|5e7b1788636d49b2ea3d02a1138c72cbc3b4c7ca
 vendor/lib/libq3dtools_adreno.so|8d86f17059c210ab15a57ac9c648da1311ae35a1
-vendor/lib/librs_adreno.so|9a563f8a469187d6239ba72907271179d8b7d753
 vendor/lib/libsdmextension.so|70d3dde16611389769f8d8f8527ea69a01b6942f
 vendor/lib/libscalar.so|835649ab934f93d545059fd08040c6acbf7f3d1b
 vendor/lib/libsdm-color.so|76531589416b881b636c8f55b0c1dd342113fc5b
@@ -339,7 +338,6 @@ vendor/lib64/libmm-hdcpmgr.so|14ba633fbef35ad3c684a440abb15d9e2c300537
 vendor/lib64/libOpenCL.so|eb7fbc2972a022b645e422422cc77d00b103532f
 vendor/lib64/libpvr.so|b9d38b4d340e66a1d89861ce552f0405ce9bfa11
 vendor/lib64/libq3dtools_adreno.so|8d86f17059c210ab15a57ac9c648da1311ae35a1
-vendor/lib64/librs_adreno.so|c915361633f7d32f27ab627a0e4400e25a0a5c43
 vendor/lib64/libscalar.so|c47e029b8eabb8cedb1cea92f49d2c876106b326
 vendor/lib64/libsdm-color.so|234d63668a773e81542c37c35be52fe1752b687d
 vendor/lib64/libsdm-diag.so|2e6e0f50786a8ab106ddd74ade69c58973bd3e73
