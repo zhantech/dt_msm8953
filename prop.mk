@@ -118,6 +118,7 @@ debug.sf.early.app.duration=20000000 \
 debug.sf.earlyGl.sf.duration=27600000 \
 debug.sf.earlyGl.app.duration=20000000 \
 debug.sf.hwc.min.duration=17000000 \
+debug.sf.predict_hwc_composition_strategy=0 \
 dev.pm.dyn_samplingrate=1 \
 persist.demo.hdmirotationlock=false \
 persist.hwc.enable_vds=1 \
