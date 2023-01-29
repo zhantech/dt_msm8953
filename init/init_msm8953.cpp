@@ -36,6 +36,8 @@
 
 #include <android-base/properties.h>
 #define _REALLY_INCLUDE_SYS__SYSTEM_PROPERTIES_H_
+#include <sys/stat.h>
+#include <sys/types.h>
 #include <sys/_system_properties.h>
 
 #include "vendor_init.h"
@@ -58,6 +60,42 @@ void property_override(char const prop[], char const value[], bool add = true)
         __system_property_update(pi, value, strlen(value));
     } else if (add) {
         __system_property_add(prop, strlen(prop), value, strlen(value));
+    }
+}
+
+/* From Magisk@jni/magiskhide/hide_utils.c */
+static const char *snet_prop_key[] = {
+  "ro.boot.vbmeta.device_state",
+  "ro.boot.verifiedbootstate",
+  "ro.boot.flash.locked",
+  "ro.boot.veritymode",
+  "ro.boot.warranty_bit",
+  "ro.warranty_bit",
+  "ro.debuggable",
+  "ro.secure",
+  "ro.build.type",
+  "ro.build.tags",
+  NULL
+};
+
+static const char *snet_prop_value[] = {
+  "locked",
+  "green",
+  "1",
+  "enforcing",
+  "0",
+  "0",
+  "0",
+  "1",
+  "user",
+  "release-keys",
+  NULL
+};
+
+static void workaround_snet_properties() {
+    // Hide all sensitive props
+    for (int i = 0; snet_prop_key[i]; ++i) {
+        property_override(snet_prop_key[i], snet_prop_value[i]);
     }
 }
 
@@ -94,9 +132,22 @@ void check_device()
     }
 }
 
+static void set_build_fingerprint(const char *fingerprint){
+    property_override("ro.bootimage.build.fingerprint", fingerprint);
+    property_override("ro.system.build.fingerprint", fingerprint);
+    property_override("ro.build.fingerprint", fingerprint);
+    property_override("ro.vendor.build.fingerprint", fingerprint);
+}
+
+static void set_build_description(const char *description){
+    property_override("ro.build.description", description);
+}
+
 void vendor_load_properties()
 {
     check_device();
+    
+    workaround_snet_properties();
 
     property_override("dalvik.vm.heapstartsize", heapstartsize);
     property_override("dalvik.vm.heapgrowthlimit", heapgrowthlimit);
@@ -104,4 +155,6 @@ void vendor_load_properties()
     property_override("dalvik.vm.heaptargetutilization", heaptargetutilization);
     property_override("dalvik.vm.heapminfree", heapminfree);
     property_override("dalvik.vm.heapmaxfree", heapmaxfree);
+    set_build_fingerprint("google/raven/raven:13/TQ1A.230105.002/9325679:user/release-keys");
+    set_build_description("raven-user 13 TQ1A.230105.002 9325679 release-keys");
 }
