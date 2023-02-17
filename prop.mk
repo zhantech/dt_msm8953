@@ -162,11 +162,8 @@ ro.gps.agps_provider=1
 
 # LMKD
 PRODUCT_PROPERTY_OVERRIDES += \
-ro.config.low_ram=true \
-ro.lmk.log_stats=false \
-persist.sys.force_highendgfx=true \
-dalvik.vm.jit.codecachesize=0 \
-config.disable_atlas=true
+ro.config.low_ram=false \
+ro.lmk.log_stats=false
 
 # LMK tuning
 PRODUCT_PROPERTY_OVERRIDES += \
