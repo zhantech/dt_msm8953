@@ -177,10 +177,11 @@ PRODUCT_PACKAGES += \
     android.hardware.drm@1.4-service.clearkey
 
 # FM
-PRODUCT_PACKAGES += \
-    FMRadio \
-    libfmjni \
-    qcom.fmradio
+ifeq ($(WITH_FM_RADIO), true)
+    PRODUCT_PACKAGES += \
+        RevampedFMRadio \
+        libqcomfmjni:64
+endif
 
 # GPS / Location
 PRODUCT_PACKAGES += \
