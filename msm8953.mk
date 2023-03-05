@@ -179,7 +179,8 @@ PRODUCT_PACKAGES += \
 # FM
 PRODUCT_PACKAGES += \
     FMRadio \
-    libfmjni
+    libfmjni \
+    qcom.fmradio
 
 # GPS / Location
 PRODUCT_PACKAGES += \
