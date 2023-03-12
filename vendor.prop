@@ -68,6 +68,7 @@ bluetooth.profile.pbap.server.enabled?=true
 
 # Display
 debug.egl.hw=0 
+debug.hwui.renderer=opengl
 debug.enable.sglscale=1 
 debug.gralloc.enable_fb_ubwc=1 
 debug.hwui.skia_atrace_enabled=false 
