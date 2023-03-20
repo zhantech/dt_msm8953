@@ -369,9 +369,9 @@ vendor/firmware/a530_pm4.fw|5741a28752355b478d455635bab008028ff7e1c6
 # Ipacm - from daisy
 vendor/bin/ipacm-diag|9300f8da22941c2bfacc2ff96f83f2beebd4dcc1
 
-# Keystore - from daisy
+# Keystore - from LA.UM.10.6.2.r1-01600-89xx.0
+vendor/lib64/hw/keystore.msm8953.so|7d54e81c15620d2bac5aee98ae4a9e629b3a585f
 vendor/lib/hw/keystore.msm8953.so|c56d3768e04fc180d844dbca94be8c27770e37d5
-vendor/lib64/hw/keystore.msm8953.so|9660e1c13a3589114cf18db58e5b3c3c9e14059b
 
 # Latency - from daisy
 product/framework/vendor.qti.hardware.data.latency-V1.0-java.jar|c6c5d5bbf50b068df0184aef8551b95daa5f4791
