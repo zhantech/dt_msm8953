@@ -256,9 +256,9 @@ vendor/lib64/libssd.so|33d717f793c2579e3bd17b5ce6534cb68c12887d
 vendor/lib64/hw/vendor.qti.hardware.fm@1.0-impl.so|5f48a9ed98dad9fa59cf1a2469f53e1066ab24a6
 vendor/lib64/vendor.qti.hardware.fm@1.0.so|bab0150ce3fdc5d180a32ab9499e7693be2e0d0a
 
-# Gatekeeper - from daisy
+# Gatekeeper - from LA.UM.10.6.2.r1-01600-89xx.0
 vendor/lib/hw/gatekeeper.msm8953.so|cd04140788659ae07a50081baeb3eb2e42f37028
-vendor/lib64/hw/gatekeeper.msm8953.so|1086e5dcda7aa2bed7ac015f7850095f6199a1c2
+vendor/lib64/hw/gatekeeper.msm8953.so|777d2d7c159048cf88646ec3e6155a6534b68eac
 
 # GPS - from daisy
 vendor/bin/loc_launcher|06793983f836a9b42b5ff3848f8fe177134c1379
