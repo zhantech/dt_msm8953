@@ -46,6 +46,9 @@ ro.config.dha_th_rate=2.3
 ro.config.sdha_apps_bg_max=64 
 ro.config.sdha_apps_bg_min=8
 
+# APCF extended
+bluetooth.le.disable_apcf_extended_features=1
+
 # Bluetooth
 bluetooth.device.class_of_device=90,2,12 
 bluetooth.hardware.power.idle_cur_ma=36 
