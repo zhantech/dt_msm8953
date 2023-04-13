@@ -323,9 +323,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/power/configs/powerhint.json:$(TARGET_COPY_OUT_VENDOR)/etc/powerhint.json
 
-# Properties
--include device/xiaomi/msm8953-common/prop.mk
-
 # QMI
 PRODUCT_PACKAGES += \
     libjson
