@@ -134,6 +134,7 @@ TARGET_RECOVERY_DEVICE_MODULES := libinit_msm8953
 
 # IPA
 USE_DEVICE_SPECIFIC_DATA_IPA_CFG_MGR := true
+PRODUCT_SOONG_NAMESPACES += vendor/qcom/opensource/data-ipa-cfg-mgr-legacy-um
 
 # Media
 TARGET_USES_MEDIA_EXTENSIONS := true
